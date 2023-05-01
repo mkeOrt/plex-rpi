@@ -19,20 +19,13 @@ templates:
       tv:
       - Black Mirror
       - Brooklyn Nine-Nine
-      - Homeland
-      - Luther
       - Mr Robot
       - Rick and Morty
-      - SEAL Team
       - Sherlock
       - Silicon Valley
-      - Suits
       - The Flash
-      - The Good Fight
       - The Walking Dead
-      - Tosh.0
-      - True Detective
-      - Westworld
+      - Shazam! Fury of the Gods
 
     transmission:
       host: transmission
@@ -42,7 +35,7 @@ templates:
 
 tasks:
   eztvrss:
-    rss: https://eztv.ag/ezrss.xml
+    rss: https://eztv.re/ezrss.xml
     template: tv
     priority: 2
   sort_tv:
