@@ -25,7 +25,6 @@ templates:
       - Silicon Valley
       - The Flash
       - The Walking Dead
-      - Shazam! Fury of the Gods
 
     transmission:
       host: transmission
